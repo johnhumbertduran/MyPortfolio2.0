@@ -48,8 +48,19 @@
 
 
 .head{
-    color: rgb(231, 253, 238);
+    color: rgb(26, 26, 26);
     text-decoration: none;
+}
+
+.head:hover{
+    color: rgb(224, 255, 234);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.opac:hover{
+    opacity: .5;
+    filter: alpha(opacity=50);
 }
 
 .fab, .far, .fas{
@@ -104,6 +115,10 @@
 .modal-header{
     border-radius: 6px;
     padding-bottom: 2%;
+}
+
+.hide{
+    visibility: hidden;
 }
 
 
