@@ -102,6 +102,34 @@
 
 }
 
+.fa-phone-alt:hover{
+    color: rgb(60, 255, 0);
+}
+
+.fa-map-marker-alt:hover{
+    color: rgb(223, 25, 25);
+}
+
+.fa-facebook-square:hover{
+    color: #1d47d1;
+}
+
+.fa-envelope:hover{
+    color: rgb(223, 25, 25);
+}
+
+.fa-linkedin-in:hover{
+    color: #ffffff;
+}
+
+.fa-youtube:hover{
+    color: rgb(223, 25, 25);
+}
+
+.fa-github:hover{
+    color: rgb(109, 12, 165);
+}
+
 @-webkit-keyframes zoomLogoHover {
     from {-webkit-transform: scale(0.6)} 
     to {-webkit-transform: scale(1.3)}
@@ -616,35 +644,24 @@
     }
 }
 
-
 .tooltip-inner{
- 
- 
- 
     /* padding:2px 7px; */
- 
     color:#ffffff;
- 
     /* text-align:center; */
- 
     font-weight:600;
     background-color: #2b2b2b;
- 
     /* background: -webkit-gradient(linear, left top, left 25, from(#F4F4F4), color-stop(4%, #B4C8D6), to(#F4F4F4));
- 
     background: -moz-linear-gradient(top, #F4F4F4, #B4C8D6 1px, #F4F4F4 25px); */
- 
     /* border: 1px solid #55AAAA; */
- 
     -webkit-border-radius:9px;
- 
     -moz-border-radius:9px;
- 
-    border-radius:9px; 
-    
- 
+    border-radius:9px;
 }
 
 .tooltip.bs-tooltip-bottom .arrow:before {
     border-bottom-color: #2b2b2b !important;
+}
+
+.tooltip{
+    margin-top: .8%;
 }
